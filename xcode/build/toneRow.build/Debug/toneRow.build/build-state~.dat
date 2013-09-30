@@ -1,0 +1,229 @@
+TtoneRow
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/toneRow.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/toneRow_Prefix-dmwxlmheejagoyacshwpdfbhdzap/toneRow_Prefix.pch.pth toneRow_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRowApp.o /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../src/toneRowApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/MacOS/toneRow normal i386
+cTouch /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000051E584DF00000000000024F0
+t1373996255
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051E584DF0000000000024DD8
+t1373996255
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051E584DF00000000000060B4
+t1373996255
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051E584DF00000000000001E5
+t1373996255
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051E584DF000000000000E9A8
+t1373996255
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1B3B730000000000006560
+t1310407539
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004F9D0514000000000007CED0
+t1335690516
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005051800B000000000002D360
+t1347518475
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005234823900000000004B9FB0
+t1379172921
+s4956080
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../resources/CinderApp.icns
+c00000000524633A00000000000070375
+t1380332448
+s459637
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../src/toneRowApp.cpp
+c0000000052463968000000000000021C
+t1380333928
+s540
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app
+t2
+s0
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/Info.plist
+t2
+s0
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/MacOS/toneRow
+t2
+s0
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRow.LinkFileList
+c00000000524639680000000000000090
+t1380333928
+s144
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRowApp.o
+t2
+s0
+
+N/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/toneRow_Prefix.pch
+c00000000524633A0000000000000012D
+t1380332448
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/toneRow_Prefix-dmwxlmheejagoyacshwpdfbhdzap/toneRow_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c00000000524633A00000000000000462
+t1380332448
+s1122
+
+CBuild AST from /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../src/toneRowApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese1d083e870f6b741^c781abe870f6b741^---0#1#0#--18"Check dependencies36"5AACECD8-0191-40C9-BB5A-69F03E90EEE1-
+
+CCompileC ./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRowApp.o /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../src/toneRowApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s402026733.808365
+e402026734.998862
+r1
+xCompileC
+x./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRowApp.o
+x/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../src/toneRowApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../src/toneRowApp.cppb70dcfed70f6b741^13b6ffee70f6b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../src/toneRowApp.cpp0000000000000000^3094"CompileC ./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRowApp.o ../src/toneRowApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/toneRow-generated-files.hmap -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/toneRow-own-target-headers.hmap -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/toneRow-all-target-headers.hmap -iquote /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/toneRow-project-headers.hmap -iquote../../../include -iquote../include -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/build/Debug/include -I../../../boost -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/DerivedSources/i386 -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/DerivedSources -F/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/build/Debug -include /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/toneRow_Prefix-dmwxlmheejagoyacshwpdfbhdzap/toneRow_Prefix.pch -MMD -MT dependencies -MF /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRowApp.d --serialize-diagnostics /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRowApp.dia -c /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../src/toneRowApp.cpp -o /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRowApp.o36"3D86EA28-7C93-4C31-BF5D-95DB6469EBBF-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/toneRow.app/Contents/Resources/CinderApp.icns
+s402026728.687334
+e402026728.692029
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/toneRow.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy ./build/Debug/toneRow.app/Contents/Resources/CinderApp.icns6005b0e870f6b741^0a2bb1e870f6b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/Resources/CinderApp.icns000000000080d041^498"CpResource ../resources/CinderApp.icns ./build/Debug/toneRow.app/Contents/Resources/CinderApp.icns    cd /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/../resources/CinderApp.icns /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/Resources36"B1863352-1C9D-4EC9-AA58-FF0605DED08F-
+
+CLd /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/MacOS/toneRow normal i386
+s402026735.022236
+e402026736.259735
+r1
+xLd
+x/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/MacOS/toneRow
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/MacOS/toneRow5cc605ef70f6b741^527e42f070f6b741^---0#0#0#--1090"Ld ./build/Debug/toneRow.app/Contents/MacOS/toneRow normal i386    cd /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/build/Debug -F/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/build/Debug -filelist /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/Objects-normal/i386/toneRow.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/MacOS/toneRow36"C60F30A4-DDC7-4B72-A421-A84E35049460-
+
+CProcessInfoPlistFile /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/Info.plist Info.plist
+s402026728.674342
+e402026728.678985
+r1
+xProcessInfoPlistFile
+x/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist46b1ace870f6b741^f6d1ade870f6b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/Info.plist0000000000000000^474"ProcessInfoPlistFile ./build/Debug/toneRow.app/Contents/Info.plist Info.plist    cd /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app/Contents/Info.plist36"D84848EA-3A6F-406D-A16E-A2E33E8485A5-
+
+CProcessPCH++ /Users/aaronsherwood/Library/Developer/Xcode/DerivedData/toneRow-dbtbksxkygqmfrfcdqsauxjpptpf/Index/PrecompiledHeaders/toneRow_Prefix-fwzxytrdxjzuixhksavukkzxlfla_ast/toneRow_Prefix.pch.pth toneRow_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/toneRow_Prefix-dmwxlmheejagoyacshwpdfbhdzap/toneRow_Prefix.pch.pth toneRow_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s402026728.701307
+e402026733.801398
+r1
+xProcessPCH++
+x/var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/toneRow_Prefix-dmwxlmheejagoyacshwpdfbhdzap/toneRow_Prefix.pch.pth
+xtoneRow_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile toneRow_Prefix.pchbcb2b3e870f6b741^aa29cded70f6b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/toneRow_Prefix.pch0000000000000000^3066"ProcessPCH++ /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/toneRow_Prefix-dmwxlmheejagoyacshwpdfbhdzap/toneRow_Prefix.pch.pth toneRow_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/toneRow-generated-files.hmap -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/toneRow-own-target-headers.hmap -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/toneRow-all-target-headers.hmap -iquote /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/toneRow-project-headers.hmap -iquote../../../include -iquote../include -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/build/Debug/include -I../../../boost -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/DerivedSources/i386 -I/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/toneRow.build/Debug/toneRow.build/DerivedSources -F/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/build/Debug --serialize-diagnostics /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/toneRow_Prefix-dmwxlmheejagoyacshwpdfbhdzap/toneRow_Prefix.pch.dia -c /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/toneRow_Prefix.pch -o /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/toneRow_Prefix-dmwxlmheejagoyacshwpdfbhdzap/toneRow_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rz/d3dw57811tqdkwblzxd4ydyc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/toneRow_Prefix-dmwxlmheejagoyacshwpdfbhdzap/toneRow_Prefix.pch.d36"E6AB021D-5A86-452E-8E67-1D0AE4146B9F-
+
+CTouch /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app
+s402026736.269254
+e402026736.273932
+r1
+xTouch
+x/Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Touch /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app1afd44f070f6b741^9e2346f070f6b741^---0#0#0#--225"Touch ./build/Debug/toneRow.app    cd /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode    /usr/bin/touch -c /Users/aaronsherwood/Documents/cinder_0.8.5_mac/myApps/toneRow/xcode/./build/Debug/toneRow.app36"E2455000-8DD7-451D-A0FC-3DFFE4C97EBB-
+

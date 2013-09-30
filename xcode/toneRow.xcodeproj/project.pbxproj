@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,11 +14,19 @@
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		8AA664C017F7BC170017C271 /* toneRow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA664BF17F7BC170017C271 /* toneRow.jpg */; };
+		8AA664C317F7BCCE0017C271 /* toneRowGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AA664C117F7BCCE0017C271 /* toneRowGenerator.cpp */; };
+		8AA664C517F7DF840017C271 /* toneRow2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA664C417F7DF840017C271 /* toneRow2.jpg */; };
+		8AA664D717F89FC50017C271 /* RtMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AA664D017F89FC50017C271 /* RtMidi.cpp */; };
+		8AA664D817F89FC50017C271 /* MidiHub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AA664D317F89FC50017C271 /* MidiHub.cpp */; };
+		8AA664D917F89FC50017C271 /* MidiIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AA664D417F89FC50017C271 /* MidiIn.cpp */; };
+		8AA664DA17F89FC50017C271 /* MidiMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AA664D517F89FC50017C271 /* MidiMessage.cpp */; };
+		8AA664DB17F89FC50017C271 /* MidiOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AA664D617F89FC50017C271 /* MidiOut.cpp */; };
+		8AA664DD17F89FFA0017C271 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA664DC17F89FFA0017C271 /* CoreFoundation.framework */; };
+		8AA664DF17F8A0010017C271 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA664DE17F8A0010017C271 /* CoreMIDI.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		A805112F3F2A4132BE46F5B1 /* toneRow_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 5AACC5B431084765BF589C79 /* toneRow_Prefix.pch */; };
-		EF93B251C6464B52A6154095 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = B5E18F1F4EFE4FF2A86717F1 /* CinderApp.icns */; };
-		4C58FDAB27E34A7B8455AAE3 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 080558B1ACBD4B14AC9F0B83 /* Resources.h */; };
 		8E579E93932B44989FD270A0 /* toneRowApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25857C8D5D544F54987D437C /* toneRowApp.cpp */; };
+		EF93B251C6464B52A6154095 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = B5E18F1F4EFE4FF2A86717F1 /* CinderApp.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,17 +35,37 @@
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		080558B1ACBD4B14AC9F0B83 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		25857C8D5D544F54987D437C /* toneRowApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = toneRowApp.cpp; path = ../src/toneRowApp.cpp; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		5AACC5B431084765BF589C79 /* toneRow_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = toneRow_Prefix.pch; sourceTree = "<group>"; };
+		7171181D2D8145E1ACDE3639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA664BF17F7BC170017C271 /* toneRow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = toneRow.jpg; path = ../resources/toneRow.jpg; sourceTree = "<group>"; };
+		8AA664C117F7BCCE0017C271 /* toneRowGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = toneRowGenerator.cpp; sourceTree = "<group>"; };
+		8AA664C217F7BCCE0017C271 /* toneRowGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toneRowGenerator.h; sourceTree = "<group>"; };
+		8AA664C417F7DF840017C271 /* toneRow2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = toneRow2.jpg; path = ../resources/toneRow2.jpg; sourceTree = "<group>"; };
+		8AA664C817F89FC50017C271 /* MidiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiConstants.h; sourceTree = "<group>"; };
+		8AA664C917F89FC50017C271 /* MidiExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiExceptions.h; sourceTree = "<group>"; };
+		8AA664CA17F89FC50017C271 /* MidiHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiHub.h; sourceTree = "<group>"; };
+		8AA664CB17F89FC50017C271 /* MidiIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiIn.h; sourceTree = "<group>"; };
+		8AA664CC17F89FC50017C271 /* MidiMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiMessage.h; sourceTree = "<group>"; };
+		8AA664CD17F89FC50017C271 /* MidiOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiOut.h; sourceTree = "<group>"; };
+		8AA664CF17F89FC50017C271 /* RtError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtError.h; sourceTree = "<group>"; };
+		8AA664D017F89FC50017C271 /* RtMidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtMidi.cpp; sourceTree = "<group>"; };
+		8AA664D117F89FC50017C271 /* RtMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtMidi.h; sourceTree = "<group>"; };
+		8AA664D317F89FC50017C271 /* MidiHub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiHub.cpp; sourceTree = "<group>"; };
+		8AA664D417F89FC50017C271 /* MidiIn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiIn.cpp; sourceTree = "<group>"; };
+		8AA664D517F89FC50017C271 /* MidiMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiMessage.cpp; sourceTree = "<group>"; };
+		8AA664D617F89FC50017C271 /* MidiOut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiOut.cpp; sourceTree = "<group>"; };
+		8AA664DC17F89FFA0017C271 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8AA664DE17F8A0010017C271 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		8AA664E117F8A06B0017C271 /* midiToneRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = midiToneRow.h; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* toneRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toneRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		25857C8D5D544F54987D437C /* toneRowApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/toneRowApp.cpp; sourceTree = "<group>"; name = toneRowApp.cpp; };
-		080558B1ACBD4B14AC9F0B83 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		B5E18F1F4EFE4FF2A86717F1 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		7171181D2D8145E1ACDE3639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		5AACC5B431084765BF589C79 /* toneRow_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = toneRow_Prefix.pch; sourceTree = "<group>"; name = toneRow_Prefix.pch; };
+		B5E18F1F4EFE4FF2A86717F1 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA664DF17F8A0010017C271 /* CoreMIDI.framework in Frameworks */,
+				8AA664DD17F89FFA0017C271 /* CoreFoundation.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
 				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
@@ -59,10 +89,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				25857C8D5D544F54987D437C /* toneRowApp.cpp */,
+				8AA664E117F8A06B0017C271 /* midiToneRow.h */,
+				8AA664C117F7BCCE0017C271 /* toneRowGenerator.cpp */,
+				8AA664C217F7BCCE0017C271 /* toneRowGenerator.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -102,21 +142,17 @@
 		29B97314FDCFA39411CA2CEA /* toneRow */ = {
 			isa = PBXGroup;
 			children = (
+				8AA664DE17F8A0010017C271 /* CoreMIDI.framework */,
+				8AA664DC17F89FFA0017C271 /* CoreFoundation.framework */,
 				01B97315FEAEA392516A2CEA /* Blocks */,
 				29B97315FDCFA39411CA2CEA /* Headers */,
 				080E96DDFE201D6D7F000001 /* Source */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				8AA664C617F89FC50017C271 /* Cinder-MIDI */,
 			);
 			name = toneRow;
-			sourceTree = "<group>";
-		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Blocks;
 			sourceTree = "<group>";
 		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
@@ -131,6 +167,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8AA664C417F7DF840017C271 /* toneRow2.jpg */,
+				8AA664BF17F7BC170017C271 /* toneRow.jpg */,
 				B5E18F1F4EFE4FF2A86717F1 /* CinderApp.icns */,
 				7171181D2D8145E1ACDE3639 /* Info.plist */,
 			);
@@ -144,6 +182,51 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AA664C617F89FC50017C271 /* Cinder-MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				8AA664C717F89FC50017C271 /* include */,
+				8AA664CE17F89FC50017C271 /* libs */,
+				8AA664D217F89FC50017C271 /* src */,
+			);
+			name = "Cinder-MIDI";
+			path = "../src/Cinder-MIDI";
+			sourceTree = "<group>";
+		};
+		8AA664C717F89FC50017C271 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8AA664C817F89FC50017C271 /* MidiConstants.h */,
+				8AA664C917F89FC50017C271 /* MidiExceptions.h */,
+				8AA664CA17F89FC50017C271 /* MidiHub.h */,
+				8AA664CB17F89FC50017C271 /* MidiIn.h */,
+				8AA664CC17F89FC50017C271 /* MidiMessage.h */,
+				8AA664CD17F89FC50017C271 /* MidiOut.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8AA664CE17F89FC50017C271 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8AA664CF17F89FC50017C271 /* RtError.h */,
+				8AA664D017F89FC50017C271 /* RtMidi.cpp */,
+				8AA664D117F89FC50017C271 /* RtMidi.h */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		8AA664D217F89FC50017C271 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8AA664D317F89FC50017C271 /* MidiHub.cpp */,
+				8AA664D417F89FC50017C271 /* MidiIn.cpp */,
+				8AA664D517F89FC50017C271 /* MidiMessage.cpp */,
+				8AA664D617F89FC50017C271 /* MidiOut.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF93B251C6464B52A6154095 /* CinderApp.icns in Resources */,
+				8AA664C017F7BC170017C271 /* toneRow.jpg in Resources */,
+				8AA664C517F7DF840017C271 /* toneRow2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E579E93932B44989FD270A0 /* toneRowApp.cpp in Sources */,
+				8AA664C317F7BCCE0017C271 /* toneRowGenerator.cpp in Sources */,
+				8AA664D717F89FC50017C271 /* RtMidi.cpp in Sources */,
+				8AA664D817F89FC50017C271 /* MidiHub.cpp in Sources */,
+				8AA664D917F89FC50017C271 /* MidiIn.cpp in Sources */,
+				8AA664DA17F89FC50017C271 /* MidiMessage.cpp in Sources */,
+				8AA664DB17F89FC50017C271 /* MidiOut.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,24 +309,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = toneRow_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = toneRow_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "-D__MACOSX_CORE__";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_NAME = toneRow;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -257,19 +349,19 @@
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_NAME = toneRow;
 				STRIP_INSTALLED_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../..";
+				CINDER_PATH = ../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -282,11 +374,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../..";
+				CINDER_PATH = ../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
